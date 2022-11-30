@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Context reloadable="true">
+    <Resource
+        name="jdbc/sampleDS"
+        type="javax.sql.DataSource"
+        maxActive="50"
+        maxIdle="100"
+        username="admin"
+        maxWait="5000"
+        driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        password="123456"
+        url="jdbc:sqlserver://localhost:1433;DatabaseName=University_Health_Mis"/>
+</Context>
